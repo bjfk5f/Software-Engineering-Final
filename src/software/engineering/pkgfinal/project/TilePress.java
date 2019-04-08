@@ -9,6 +9,6 @@ package software.engineering.pkgfinal.project;
  *
  * @author Jeb
  */
-public class Pawn extends Piece{
-    
+public interface TilePress {
+    void onTilePressed(int row, int column);
 }
